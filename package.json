@@ -1,14 +1,18 @@
 {
-	"name": "use_this",
-	"version": "0.0.1",
-	"description": "app for tracking the use of perishable food",
-	"contributors": [{
-		"name":"Seonaid Lee",
-		"email": "<seonaidl@gmail.com>"},
-		{"name": "Sean MacCath-Moran",
-		"email": "<sean.MacCath-Moran@triskelemedia.com>"
-	}],
-	"dependencies": {
-	}
-
+  "name": "use_this",
+  "version": "0.0.1",
+  "description": "app for tracking the use of perishable food",
+  "contributors": [
+    {
+      "name": "Seonaid Lee",
+      "email": "<seonaidl@gmail.com>"
+    },
+    {
+      "name": "Sean MacCath-Moran",
+      "email": "<sean.MacCath-Moran@triskelemedia.com>"
+    }
+  ],
+  "dependencies": {
+    "express": "^4.9.8"
+  }
 }
