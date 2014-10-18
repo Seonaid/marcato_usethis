@@ -6,11 +6,17 @@
 
 <body>
 
-  <form>
+  <form action="/login" method="post">
     <div>
-      <p>Welcome to the Use This! Please log in:</p>
-      <p><label>Name: <input name="username" /></label></p>
-      <p><label>Password: <input type="password" name="password" /></label></p>
+        <label>Username:</label>
+        <input type="text" name="username"/>
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" name="password"/>
+    </div>
+    <div>
+        <input type="submit" value="Log In"/>
     </div>
   </form>
 
