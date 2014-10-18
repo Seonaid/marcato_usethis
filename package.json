@@ -14,7 +14,12 @@
   ],
   "dependencies": {
     "express": "^4.9.8",
+    "knex": "^0.7.3",
     "passport": "~0.2.1",
     "sqlite3": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seonaid/marcato_usethis.git"
   }
 }
