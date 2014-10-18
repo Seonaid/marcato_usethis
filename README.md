@@ -5,3 +5,5 @@ Integration with yummly API
 
 Developers: Sean MacCath-Moran
 	- Seonaid Lee
+
+	

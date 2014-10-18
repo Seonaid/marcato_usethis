@@ -1,0 +1,14 @@
+id| uid| item_name | entered | expires_in | category
+
+1|1|celery| now| 259200 | veg
+2|1|carrots| now| 86400 | veg
+3|1|tofu| now| 86400 | protein
+4|1|salad greens| now| 518400 | veg
+5|1|milk| now| 259200 | dairy
+6|1|chicken| now| 259200 | meat
+7|1|green beans| now| -86400 | veg
+8|1|oranges| now| 0 | fruit
+
+
+
+id INTEGER PRIMARY KEY, uid INTEGER NOT NULL, item_name STRING NOT NULL, entered DATETIME NOT NULL, expires_in INTEGER NOT NULL, expires_on DATETIME, category STRING, FOREIGN KEY (uid) REFERENCES users(id)
