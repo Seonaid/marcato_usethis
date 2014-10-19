@@ -2,9 +2,10 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
+var content = './recipes.json';
 
 
-fs.readFile('./recipes.json', function read(err, data) {
+var parse = fs.readFile(content, function read(err, data) {
     if (err) {
         throw err;
     }
@@ -17,3 +18,5 @@ fs.readFile('./recipes.json', function read(err, data) {
 
    
 });
+
+module.exports.parse = parse;
