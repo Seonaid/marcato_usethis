@@ -19,8 +19,8 @@ app.post('/login', function(req, res){
 });
 
 // process the addinventory form
-app.post('/add-inventory', function(req, res){
-	console.log(req.inventoryName);
+app.get('/add-inventory', function(req, res){
+	console.log(req.query.name + " expires on " + req.query.expires);
 	res.sendFile(__dirname + '/public/add-inventory.html');
 });
 
